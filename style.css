@@ -1,0 +1,41 @@
+body{
+  background-color: rgba(0, 0, 0, 0.823);
+  color: white;
+}
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1.5px solid rgb(203, 202, 203);
+    border-radius: 12px;
+    padding: 12px 12px;
+    box-shadow: 2px 2px 12px gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #showWord{
+    height: 30px; 
+    box-shadow: 1px 1px 0px gray;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom:12px ;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding: 7px 12px;
+  }
+  
+  #showWord span{
+        width: 22px;
+        text-align:center ;
+        font-size: 24px;
+  }
+  input{
+    border: 1.5px solid;
+    border-radius: 3px;
+    padding-left: 2px;
+    font-size: 16px;
+    outline: none;
+  }
+ 
